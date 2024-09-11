@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Patrikios | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { margin-top: 100px; font-size: 14px; text-align: center; } 
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+   <!-- This is the main container where we will put our contents -->
+   <main>
+    <!-- This is the left part of the main container -->
+    <section class="left">
+      <h3>Your Result</h3>
+      <div class="score-container">
+        <span class="main-score">76</span>
+        <span class="score">of 100</span>
+      </div>
+      <div class="text-container">
+        <h1>Great</h1>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </section>
+    <!-- This is the right part of the main container -->
+    <section class="right">
+      <h3>Summary</h3>
+      <div class="subjects">
+        <div class="reaction">
+         <span class="sub-name"><img src="/assets/images/icon-reaction.svg" alt="Reaction"> <span>Reaction</span></span> <span class="sub-score"><span class="black-text">80 /</span><span class="grey-text">100</span></span>
+        </div>
+        <div class="memory">
+          <span class="sub-name"><img src="/assets/images/icon-memory.svg" alt="Memory"> <span>Memory</span></span> <span class="sub-score"><span class="black-text">92 /</span><span class="grey-text">100</span></span>
+         </div>
+         <div class="verbal">
+          <span class="sub-name"><img src="/assets/images/icon-verbal.svg" alt="Verbal"> <span>Verbal</span></span> <span class="sub-score"><span class="black-text">61 /</span><span class="grey-text">100</span></span>
+          </div>
+         <div class="visual">
+          <span class="sub-name"><img src="/assets/images/icon-visual.svg" alt="Visual"> <span>Visual</span></span> <span class="sub-score"><span class="black-text">72 /</span><span class="grey-text">100</span></span>
+         </div>
+        <button>Continue</button>
+      </div>
+    </section>
+  </main>
+ 
+</body>
+<footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Patrikios</a>.
+  </div>
+</footer>
+</html>
